@@ -1,4 +1,4 @@
-Cloning the ritual.com Homepage
+# Cloning the ritual.com Homepage
 
 # Getting Started with Create React App
 
