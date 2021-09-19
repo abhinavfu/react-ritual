@@ -23,67 +23,38 @@
   /* header */
   /* menu  */
   #menu-container {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    display: block;
     width: 100%;
-    height: 100vh;
-    z-index: 30;
-    background-color: rgba(0, 0, 0, 0.5);
+    height: 70vh;
   }
   .menu33 {
     width: 33%;
-    height: 100vh;
-    background-color: white;
-    float: left;
-    z-index: 50;
-    padding: 100px 50px 100px 100px;
-    border-right: 0.1px solid rgba(128, 128, 128, 0.1);
-    text-align: left;
-  }
-  #menu-container svg {
-    position: relative;
-    top: 5px;
-    left: 0px;
+    height: 70vh;
+    padding: 0px 5px 20px 10px;
+    border-right: 0px dotted rgba(117, 48, 48, 0) !important;
   }
   #menu-container ul {
-    margin: 0px 0px;
-    padding: 18px 0px;
+    padding: 15px 0px;
   }
   #menu-container ul li {
-    list-style: none;
-    display: block;
-    margin: 13px 0px;
-    font-size: 13px;
-    color: rgb(20, 43, 111, 0.5);
-    font-weight: 550;
+    margin: 2px -10px;
+    font-size: 0.6rem;
   }
   #menu-container ul li a {
-    cursor: pointer;
-    font-size: 1.375rem;
-    font-weight: 550;
+    font-size: 0.6rem;
   }
   #menu-container .menu-main li a {
-    font-size: 1.875rem;
-    line-height: 40px;
+    font-size: 0.8rem;
+    line-height: 20px;
+    margin: 2px 20px;
   }
   #menu-container .menu-notmain li a {
-    font-size: 1.2rem;
-    line-height: 20px;
-    font-weight: 500;
+    font-size: 0.6rem;
+    line-height: 10px;
+    margin: 2px 20px;
   }
   #account {
     padding-left: 10px;
-  }
-  #menu-container a:hover {
-    background-color: rgba(255, 217, 0, 0.5);
-  }
-  #menu-container .label {
-    background-color: var(--yellow);
-    position: relative;
-    top: -5px;
-    left: 0px;
+    font-size: 14px;
   }
   #pregnancy ul,
   #kids ul {
@@ -91,31 +62,22 @@
   }
   #pregnancy ul:nth-child(1),
   #kids ul:nth-child(1) {
-    margin-top: 13px;
+    margin-top: 10px;
+  }
+  #menu-container .label {
+    display: none;
   }
   /* menu  */
   #menu {
-    cursor: pointer;
-    z-index: 100;
-    float: left;
-    font-size: 15px;
+    margin-top: 10px;
   }
   .closebtn {
     position: relative;
-    top: -75px;
-    right: -350px;
-    cursor: pointer;
-    height: 16px;
-    width: 16px;
-  }
-  .closebtn:hover {
-    opacity: 0.5;
+    top: 5px;
+    right: -80%;
   }
   #closearea {
-    float: right;
-    margin: 0px;
-    width: 0%;
-    height: 100vh;
+    height: 70vh;
   }
   /* menu end  */
   /* navlinks  */
@@ -132,38 +94,21 @@
     display: none;
   }
   /* Hero Section  */
-  #hero-section {
-    border: 1px solid white;
-    width: 100%;
-  }
   #hero-img {
     margin: 50px 0px 25px 0px;
-    height: 180px;
-    display: flex;
-    justify-content: center;
+    height: 190px;
   }
   #p-rel {
     width: auto;
     position: absolute;
     top: 95px;
-    text-align: center;
-  }
-  #p-rel div {
-    display: flex;
-    justify-content: center;
   }
   #hero-title > p {
-    font-family: "LL Circular", sans-serif;
     font-size: 2.2rem;
     word-spacing: 0px;
-    letter-spacing: -1px;
     line-height: 2rem;
-    font-weight: 700;
-    justify-content: center;
-    align-items: center;
     width: 230px;
     padding-right: 0px;
-    color: var(--blue);
   }
   #hero-title > p:nth-child(1) {
     text-align: right;
@@ -174,28 +119,38 @@
   }
   #hero-title em {
     font-size: 1.75rem;
-    font-weight: 500;
   }
   #herobtn {
-    font-family: "LL Circular", sans-serif;
     font-size: 0.7rem;
     line-height: 1.2rem;
-    font-weight: 500;
     padding: 0px 15px;
     margin-top: 10px;
-    background-color: var(--blue);
-    border: 0.5px solid rgba(255, 255, 255, 0);
-    color: white;
-    border-radius: 25px;
-    cursor: pointer;
-  }
-  #herobtn:hover {
-    background-color: white;
-    color: var(--blue);
   }
   /* Thumbnail cards */
   .card {
-    margin: 15px;
+    width: 45%;
+    cursor: pointer;
+    margin: 5px;
+    position: relative;
+    float: left;
+  }
+  .card-img {
+    width: 100%;
+    height: 85px;
+    object-fit: cover;
+  }
+  .card-text {
+    width: 100%;
+    font-size: 13px;
+    padding: 5px;
+  }
+  .label {
+    margin: 0px 5px;
+    padding: 3px 10px 3px 7px;
+    font-size: 8px;
+    position: absolute;
+    bottom: 35px;
+    left: 5px;
   }
 
   /* page info */
@@ -212,11 +167,11 @@
   }
   .circle {
     z-index: -1;
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
     position: absolute;
-    top: 30px;
-    left: -50px;
+    top: -20px;
+    left: -100px;
   }
   .unipadding {
     content: "";
@@ -265,13 +220,6 @@
   .text-assign2 {
     margin-right: 0px;
   }
-  .text-assign2 p {
-    margin: 0px;
-    padding: 10px 0px;
-  }
-  .text-assign2 div {
-    margin: 20px 0px;
-  }
   .text-assign2 a {
     margin: 0px;
   }
@@ -283,25 +231,21 @@
   /* Skeptics Speak */
   .speaker {
     padding: 50px 0px;
-    /* z-index: 2; */
-    background: rgba(242, 241, 245, 0.56);
-    text-align: center;
-    position: relative;
   }
   .speaker p {
     margin: 0px 15px;
   }
   .c-pos {
     position: absolute;
-    bottom: -80px;
+    bottom: -150px;
     right: 0px;
     overflow: hidden;
-    height: 160px;
-    width: 80px;
+    height: 300px;
+    width: 150px;
   }
   .circle2 {
-    height: 160px;
-    width: 160px;
+    height: 300px;
+    width: 300px;
   }
   .speaker h2 {
     text-align: center;
@@ -340,8 +284,6 @@
   }
   #ref-logo > div {
     padding: 15px 0px 0px 0px;
-    display: flex;
-    justify-content: space-evenly;
   }
   #ref-logo svg {
     height: 20px;
@@ -358,10 +300,12 @@
   .gallery-container {
     display: flex;
     margin-bottom: 40px;
-    overflow: hidden;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
   .gallery {
-    margin: 0px 10px;
+    width: 43%;
+    margin: 10px;
   }
   /* subscribe */
   .div50 h3 {
@@ -373,21 +317,14 @@
   input {
     padding: 10px 20px;
     font-size: 0.7rem;
-    line-height: 1;
-    overflow: visible;
-    float: left;
     height: auto;
   }
   input[type="text"] {
-    outline: none;
-    border: 0px;
     width: 60%;
     margin-left: 5%;
   }
   input[type="submit"] {
     width: 30%;
-    cursor: pointer;
-    text-decoration-line: underline;
     text-underline-offset: 3px;
   }
   .icons {
@@ -400,9 +337,7 @@
     padding: 0px;
   }
   .icons ul li {
-    list-style: none;
     margin: 20px 10px;
-    display: inline-block;
   }
   /* important links  */
   .imp-links {
@@ -414,7 +349,6 @@
   .div25 {
     width: auto;
     float: left;
-    text-align: left;
   }
   .imp-links svg {
     position: absolute;
@@ -429,9 +363,7 @@
     padding: 0px 10px;
   }
   .imp-links ul li {
-    list-style: none;
     margin: 10px 0px;
-    font-size: 12px;
   }
   .imp-links ul li a {
     cursor: pointer;
@@ -456,8 +388,6 @@
     margin: 5px;
     text-align: center;
     line-height: 12px;
-    font-weight: 600;
     font-size: 9px;
-    word-spacing: 0.4px;
   }
 }

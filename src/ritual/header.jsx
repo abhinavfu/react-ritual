@@ -1,5 +1,6 @@
 import React from 'react';
 import Menu from './menu';
+import heroimg from './images/ritual-hero.png';
 
 class Header extends React.Component {
     render() { 
@@ -66,7 +67,7 @@ class Header extends React.Component {
         </nav>
         <div id="hero-section">
           <div id="hero-img">
-            <img src="./images/ritual-hero.png" alt="" srcset="" />
+            <img src={heroimg} alt="" srcset="" />
             <div id="p-rel">
               <div>
                 <p id="hero-title">

@@ -1,4 +1,8 @@
 import React from 'react';
+import imgmake1 from "./images/ritual-make1.png";
+import imgmake2 from "./images/ritual-make2.png";
+import imgmake3 from "./images/ritual-make3.png";
+import imgmake4 from "./images/ritual-make4.png";
 
 class Section4 extends React.Component {
     render() { 
@@ -10,16 +14,16 @@ class Section4 extends React.Component {
       </div>
       <div className="unipadding gallery-container">
         <div className="gallery">
-          <img src="./images/ritual-make1.png" alt="" srcset="" />
+          <img src={imgmake1} alt="" srcset="" />
         </div>
         <div className="gallery">
-          <img src="./images/ritual-make2.png" alt="" srcset="" />
+          <img src={imgmake2} alt="" srcset="" />
         </div>
         <div className="gallery">
-          <img src="./images/ritual-make3.png" alt="" srcset="" />
+          <img src={imgmake3} alt="" srcset="" />
         </div>
         <div className="gallery">
-          <img src="./images/ritual-make4.png" alt="" srcset="" />
+          <img src={imgmake4} alt="" srcset="" />
         </div>
       </div>
       <hr />

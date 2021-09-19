@@ -1,4 +1,7 @@
 import React from 'react';
+import img1 from "./images/ritual1.png";
+import img2 from "./images/ritual2.png"
+import img3 from "./images/ritual3.png"
 
 class Section2 extends React.Component {
     render() { 
@@ -6,7 +9,7 @@ class Section2 extends React.Component {
         <div className="unipadding">
           <div className="div50">
             <div className="circle"></div>
-            <img src="./images/ritual1.png" alt="" srcset="" />
+            <img src={img1} alt="" srcset="" />
           </div>
           <div className="div50">
             <div className="text-assign">
@@ -40,12 +43,12 @@ class Section2 extends React.Component {
             </div>
           </div>
           <div className="div50">
-            <img src="./images/ritual2.png" alt="" srcset="" />
+            <img src={img2} alt="" srcset="" />
           </div>
         </div>
         <div className="unipadding">
           <div className="div50">
-            <img src="./images/ritual3.png" alt="" srcset="" />
+            <img src={img3} alt="" srcset="" />
           </div>
           <div className="div50">
             <div className="text-assign">
