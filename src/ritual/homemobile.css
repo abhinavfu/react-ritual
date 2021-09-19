@@ -50,7 +50,7 @@
   #menu-container .menu-notmain li a {
     font-size: 0.8rem;
     line-height: 10px;
-    margin: 2px 20px;
+    margin: 2px 0px 2px 20px;
   }
   #account {
     padding-left: 10px;
@@ -69,7 +69,7 @@
   }
   /* menu  */
   #menu {
-    margin-top: 10px;
+    margin-top: 12px;
   }
   .closebtn {
     position: relative;
@@ -88,7 +88,7 @@
   #logo {
     position: absolute;
     top: 13px;
-    left: 35%;
+    left: 40%;
   }
   .navleft a {
     display: none;
@@ -284,11 +284,12 @@
   }
   #ref-logo > div {
     padding: 15px 0px 0px 0px;
+    flex-wrap: wrap;
   }
   #ref-logo svg {
-    height: 28px;
+    height: 30px;
     width: auto;
-    margin: 0px;
+    margin: 5px;
   }
   /* Make Your Self */
   .maker {
@@ -325,7 +326,7 @@
   }
   input[type="submit"] {
     width: 30%;
-    height: 38px;
+    height: 38.4px;
     text-underline-offset: 3px;
   }
   .icons {
@@ -354,14 +355,14 @@
   .imp-links svg {
     position: absolute;
     top: 68%;
-    left: 12%;
+    left: 10%;
     margin: 20px 5px;
     height: auto;
     width: 80px;
   }
   .imp-links ul {
     margin-bottom: 50px;
-    padding: 0px 10px;
+    padding: 0px;
   }
   .imp-links ul li {
     margin: 10px 0px;
