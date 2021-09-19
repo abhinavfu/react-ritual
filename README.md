@@ -2,4 +2,4 @@
 
 https://abhinavfu.github.io/react-ritual/
 
-Responsive homepage is under progress.
+Mobile responsive homepage.
