@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './home.css';
+import './homemobile.css';
 import Header from './header';
 import Section1 from './section1';
 import Section2 from './section2';

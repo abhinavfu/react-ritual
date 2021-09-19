@@ -1,0 +1,464 @@
+/* for mobile devices */
+@media screen and (max-width: 700px) {
+  * {
+    box-sizing: border-box;
+    margin: 0px;
+    /* border: 1px solid red; */
+    color: rgb(20, 43, 111);
+  }
+  :root {
+    --yellow: rgb(255, 217, 0);
+    --blue: rgb(20, 43, 111);
+  }
+  body {
+    margin: 0;
+    font-family: LL Circular, -apple-system, BlinkMacSystemFont, Roboto,
+      Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+      Segoe UI Symbol;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+  }
+  /* header */
+  /* menu  */
+  #menu-container {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    z-index: 30;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .menu33 {
+    width: 33%;
+    height: 100vh;
+    background-color: white;
+    float: left;
+    z-index: 50;
+    padding: 100px 50px 100px 100px;
+    border-right: 0.1px solid rgba(128, 128, 128, 0.1);
+    text-align: left;
+  }
+  #menu-container svg {
+    position: relative;
+    top: 5px;
+    left: 0px;
+  }
+  #menu-container ul {
+    margin: 0px 0px;
+    padding: 18px 0px;
+  }
+  #menu-container ul li {
+    list-style: none;
+    display: block;
+    margin: 13px 0px;
+    font-size: 13px;
+    color: rgb(20, 43, 111, 0.5);
+    font-weight: 550;
+  }
+  #menu-container ul li a {
+    cursor: pointer;
+    font-size: 1.375rem;
+    font-weight: 550;
+  }
+  #menu-container .menu-main li a {
+    font-size: 1.875rem;
+    line-height: 40px;
+  }
+  #menu-container .menu-notmain li a {
+    font-size: 1.2rem;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  #account {
+    padding-left: 10px;
+  }
+  #menu-container a:hover {
+    background-color: rgba(255, 217, 0, 0.5);
+  }
+  #menu-container .label {
+    background-color: var(--yellow);
+    position: relative;
+    top: -5px;
+    left: 0px;
+  }
+  #pregnancy ul,
+  #kids ul {
+    padding: 5px 0px;
+  }
+  #pregnancy ul:nth-child(1),
+  #kids ul:nth-child(1) {
+    margin-top: 13px;
+  }
+  /* menu  */
+  #menu {
+    cursor: pointer;
+    z-index: 100;
+    float: left;
+    font-size: 15px;
+  }
+  .closebtn {
+    position: relative;
+    top: -75px;
+    right: -350px;
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+  }
+  .closebtn:hover {
+    opacity: 0.5;
+  }
+  #closearea {
+    float: right;
+    margin: 0px;
+    width: 0%;
+    height: 100vh;
+    /* z-index: 10; */
+  }
+  /* menu end  */
+  /* navlinks  */
+  .nav-w {
+    width: 85vw;
+    margin-top: 5px;
+  }
+  #logo {
+    position: absolute;
+    top: 13px;
+    left: 35%;
+  }
+  .navleft a {
+    display: none;
+  }
+  /* Hero Section  */
+  #hero-section {
+    border: 1px solid white;
+    width: 100%;
+  }
+  #hero-img {
+    margin: 50px 0px 25px 0px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+  }
+  #p-rel {
+    width: auto;
+    position: absolute;
+    top: 95px;
+    text-align: center;
+  }
+  #p-rel div {
+    display: flex;
+    justify-content: center;
+  }
+  #hero-title > p {
+    font-family: "LL Circular", sans-serif;
+    font-size: 2.2rem;
+    word-spacing: 0px;
+    letter-spacing: -1px;
+    line-height: 2rem;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    padding-right: 0px;
+    color: var(--blue);
+  }
+  #hero-title > p:nth-child(1) {
+    text-align: right;
+  }
+  #hero-title > p:nth-child(2) {
+    text-align: left;
+    padding-bottom: 0px;
+  }
+  #hero-title em {
+    font-size: 1.75rem;
+    font-weight: 500;
+  }
+  #herobtn {
+    font-family: "LL Circular", sans-serif;
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+    font-weight: 500;
+    padding: 0px 15px;
+    margin-top: 10px;
+    background-color: var(--blue);
+    border: 0.5px solid rgba(255, 255, 255, 0);
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  #herobtn:hover {
+    background-color: white;
+    color: var(--blue);
+  }
+  /* Thumbnail cards */
+  .card {
+    margin: 15px;
+  }
+
+  /* page info */
+  #info-box {
+    padding: 40px 0px;
+  }
+  .info-card {
+    margin: 7px;
+  }
+  /* Big layout */
+  .big-layout {
+    position: relative;
+    margin-bottom: 70px;
+  }
+  .circle {
+    z-index: -1;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    left: -50px;
+  }
+  .unipadding {
+    content: "";
+    margin: 0% 5%;
+    clear: both;
+    display: table;
+    overflow: auto;
+  }
+  h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: -1.4px;
+  }
+  .big-layout h2 {
+    margin-top: 20px;
+  }
+  p {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+  }
+  .div50 {
+    width: 100%;
+    float: none;
+    margin-top: 40px;
+  }
+  .text-assign {
+    margin: 0px;
+  }
+  .text-assign h2,
+  .text-assign2 h2 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  .text-assign p {
+    margin: 0px;
+    padding: 5px 0px;
+  }
+  a {
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+  .text-assign a {
+    margin: 0px;
+  }
+  /* 2nd info  */
+  .text-assign2 {
+    margin-right: 0px;
+  }
+  .text-assign2 p {
+    margin: 0px;
+    padding: 10px 0px;
+  }
+  .text-assign2 div {
+    margin: 20px 0px;
+  }
+  .text-assign2 a {
+    margin: 0px;
+  }
+  /* 3rd  */
+  .text-assign ul li {
+    margin: 0px -40px;
+    width: 120%;
+  }
+  /* Skeptics Speak */
+  .speaker {
+    padding: 50px 0px;
+    /* z-index: 2; */
+    background: rgba(242, 241, 245, 0.56);
+    text-align: center;
+    position: relative;
+  }
+  .speaker p {
+    margin: 0px 15px;
+  }
+  .c-pos {
+    position: absolute;
+    bottom: -80px;
+    right: 0px;
+    overflow: hidden;
+    height: 160px;
+    width: 80px;
+  }
+  .circle2 {
+    height: 160px;
+    width: 160px;
+  }
+  .speaker h2 {
+    text-align: center;
+    padding: 15px;
+  }
+  .speaker-gallery {
+    margin: 25px 0px 40px 0px;
+    width: 100%;
+    position: relative;
+    text-align: left;
+    display: block;
+  }
+  .pos-rel {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .img-dis {
+    width: 40%;
+    height: auto;
+    float: left;
+    margin-left: 15%;
+  }
+  .img-dis2 {
+    width: 22%;
+    height: auto;
+    float: left;
+  }
+  #ref-logo {
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  #ref-logo > div {
+    padding: 15px 0px 0px 0px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #ref-logo svg {
+    height: 20px;
+    width: auto;
+    margin: 0px;
+  }
+  /* Make Your Self */
+  .maker {
+    margin: 40px 0px 25px 0px;
+  }
+  .maker p {
+    padding-left: 40px;
+  }
+  .gallery-container {
+    display: flex;
+    margin-bottom: 40px;
+    overflow: hidden;
+  }
+  .gallery {
+    margin: 0px 10px;
+  }
+  /* subscribe */
+  .div50 h3 {
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    padding-right: 0px;
+  }
+  input {
+    padding: 10px 20px;
+    font-size: 0.7rem;
+    line-height: 1;
+    overflow: visible;
+    float: left;
+    height: auto;
+  }
+  input[type="text"] {
+    outline: none;
+    border: 0px;
+    width: 60%;
+    margin-left: 5%;
+  }
+  input[type="submit"] {
+    width: 30%;
+    cursor: pointer;
+    text-decoration-line: underline;
+    text-underline-offset: 3px;
+  }
+  .icons {
+    padding-top: 0px;
+    clear: both;
+    display: flex;
+    justify-content: center;
+  }
+  .icons ul {
+    padding: 0px;
+  }
+  .icons ul li {
+    list-style: none;
+    margin: 20px 10px;
+    display: inline-block;
+  }
+  /* important links  */
+  .imp-links {
+    margin: 50px 3% 25px 3%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  .div25 {
+    width: auto;
+    float: left;
+    text-align: left;
+  }
+  .imp-links svg {
+    position: absolute;
+    top: 68%;
+    left: 5%;
+    margin: 20px 5px;
+    height: auto;
+    width: 80px;
+  }
+  .imp-links ul {
+    margin-bottom: 50px;
+    padding: 0px 10px;
+  }
+  .imp-links ul li {
+    list-style: none;
+    margin: 10px 0px;
+    font-size: 12px;
+  }
+  .imp-links ul li a {
+    cursor: pointer;
+    font-size: 14px;
+  }
+  /* footer  */
+  footer {
+    padding-bottom: 30px;
+  }
+  footer svg {
+    margin: 0px;
+  }
+  .footer-link {
+    float: right;
+    width: 100%;
+    margin: 15px 0px;
+  }
+  footer,
+  footer a,
+  .footer-link a,
+  .footer-link p {
+    margin: 5px;
+    text-align: center;
+    line-height: 12px;
+    font-weight: 600;
+    font-size: 9px;
+    word-spacing: 0.4px;
+  }
+}
