@@ -1,22 +1,30 @@
 {
   "files": {
-    "main.css": "/react-ritual/static/css/main.f1f55984.chunk.css",
-    "main.js": "/react-ritual/static/js/main.c3f762a2.chunk.js",
-    "main.js.map": "/react-ritual/static/js/main.c3f762a2.chunk.js.map",
-    "runtime-main.js": "/react-ritual/static/js/runtime-main.f4ab548b.js",
-    "runtime-main.js.map": "/react-ritual/static/js/runtime-main.f4ab548b.js.map",
-    "static/js/2.ce3f90d4.chunk.js": "/react-ritual/static/js/2.ce3f90d4.chunk.js",
-    "static/js/2.ce3f90d4.chunk.js.map": "/react-ritual/static/js/2.ce3f90d4.chunk.js.map",
-    "static/js/3.608dd91e.chunk.js": "/react-ritual/static/js/3.608dd91e.chunk.js",
-    "static/js/3.608dd91e.chunk.js.map": "/react-ritual/static/js/3.608dd91e.chunk.js.map",
+    "main.css": "/react-ritual/static/css/main.c00cc58d.chunk.css",
+    "main.js": "/react-ritual/static/js/main.0916cd94.chunk.js",
+    "main.js.map": "/react-ritual/static/js/main.0916cd94.chunk.js.map",
+    "runtime-main.js": "/react-ritual/static/js/runtime-main.f97693a0.js",
+    "runtime-main.js.map": "/react-ritual/static/js/runtime-main.f97693a0.js.map",
+    "static/js/2.279ac510.chunk.js": "/react-ritual/static/js/2.279ac510.chunk.js",
+    "static/js/2.279ac510.chunk.js.map": "/react-ritual/static/js/2.279ac510.chunk.js.map",
+    "static/js/3.9fbb3f48.chunk.js": "/react-ritual/static/js/3.9fbb3f48.chunk.js",
+    "static/js/3.9fbb3f48.chunk.js.map": "/react-ritual/static/js/3.9fbb3f48.chunk.js.map",
     "index.html": "/react-ritual/index.html",
-    "static/css/main.f1f55984.chunk.css.map": "/react-ritual/static/css/main.f1f55984.chunk.css.map",
-    "static/js/2.ce3f90d4.chunk.js.LICENSE.txt": "/react-ritual/static/js/2.ce3f90d4.chunk.js.LICENSE.txt"
+    "static/css/main.c00cc58d.chunk.css.map": "/react-ritual/static/css/main.c00cc58d.chunk.css.map",
+    "static/js/2.279ac510.chunk.js.LICENSE.txt": "/react-ritual/static/js/2.279ac510.chunk.js.LICENSE.txt",
+    "static/media/ritual-hero.f88b9068.png": "/react-ritual/static/media/ritual-hero.f88b9068.png",
+    "static/media/ritual-make1.83af4c61.png": "/react-ritual/static/media/ritual-make1.83af4c61.png",
+    "static/media/ritual-make2.cfe927c8.png": "/react-ritual/static/media/ritual-make2.cfe927c8.png",
+    "static/media/ritual-make3.c2dbb351.png": "/react-ritual/static/media/ritual-make3.c2dbb351.png",
+    "static/media/ritual-make4.bda09614.png": "/react-ritual/static/media/ritual-make4.bda09614.png",
+    "static/media/ritual1.e37376e1.png": "/react-ritual/static/media/ritual1.e37376e1.png",
+    "static/media/ritual2.6bea7ef0.png": "/react-ritual/static/media/ritual2.6bea7ef0.png",
+    "static/media/ritual3.6c5277d7.png": "/react-ritual/static/media/ritual3.6c5277d7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f4ab548b.js",
-    "static/js/2.ce3f90d4.chunk.js",
-    "static/css/main.f1f55984.chunk.css",
-    "static/js/main.c3f762a2.chunk.js"
+    "static/js/runtime-main.f97693a0.js",
+    "static/js/2.279ac510.chunk.js",
+    "static/css/main.c00cc58d.chunk.css",
+    "static/js/main.0916cd94.chunk.js"
   ]
 }
