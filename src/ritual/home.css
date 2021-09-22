@@ -100,7 +100,7 @@ body {
 .closebtn {
   position: relative;
   top: -75px;
-  right: -350px;
+  right: -90%;
   cursor: pointer;
   height: 16px;
   width: 16px;
@@ -128,7 +128,7 @@ body {
 .nav-w {
   /* font-size: 1.725rem; */
   font-weight: 500;
-  width: 75rem;
+  width: 80vw;
   margin-top: 12px;
   display: flex;
   align-items: center;
@@ -214,7 +214,7 @@ body {
 .card {
   width: 270px;
   cursor: pointer;
-  margin: 0px 15px;
+  margin: 15px;
   position: relative;
 }
 .card-img {
@@ -394,7 +394,7 @@ a {
   margin: 0px -40px;
 }
 .m-text {
-  margin: 0px 10px 5px 15px !important;
+  margin: -5px 0px 5px 15px !important;
 }
 /* Skeptics Speak */
 .speaker {
