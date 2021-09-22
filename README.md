@@ -2,4 +2,4 @@
 
 https://abhinavfu.github.io/react-ritual/
 
-Mobile responsive homepage.
+Mobile and Tablet responsive homepage.
